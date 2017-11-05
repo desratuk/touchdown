@@ -1,0 +1,26 @@
+{
+  "name": "TouchDown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --exec npm run serve"
+  },
+  "author": "Carl Wilson (AKA Desrat)",
+  "license": "ISC",
+  "dependencies": {
+    "autoit": "^1.1.9",
+    "config": "^1.25.1",
+    "koa": "^1.2.0",
+    "koa-body": "^1.4.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^5.4.0",
+    "koa-router-static": "^1.2.0",
+    "koa-send": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
